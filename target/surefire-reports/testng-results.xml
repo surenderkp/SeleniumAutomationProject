@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-16T16:17:17 IST" name="Suite" finished-at="2024-02-16T16:18:07 IST" duration-ms="50390">
+  <suite started-at="2024-02-16T16:47:41 IST" name="Suite" finished-at="2024-02-16T16:48:26 IST" duration-ms="45198">
     <groups>
     </groups>
-    <test started-at="2024-02-16T16:17:17 IST" name="Test" finished-at="2024-02-16T16:18:07 IST" duration-ms="50390">
+    <test started-at="2024-02-16T16:47:41 IST" name="Test" finished-at="2024-02-16T16:48:26 IST" duration-ms="45198">
       <class name="com.automation.testCases.DashBoardTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testCases.DashBoardTest@402bba4f]" started-at="2024-02-16T16:17:17 IST" name="setup" finished-at="2024-02-16T16:17:26 IST" duration-ms="9003" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testCases.DashBoardTest@402bba4f]" started-at="2024-02-16T16:47:41 IST" name="setup" finished-at="2024-02-16T16:47:51 IST" duration-ms="9811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dashboardsetup()[pri:0, instance:com.automation.testCases.DashBoardTest@402bba4f]" started-at="2024-02-16T16:17:26 IST" name="dashboardsetup" finished-at="2024-02-16T16:18:07 IST" duration-ms="41101" status="PASS">
+        <test-method signature="dashboardsetup()[pri:0, instance:com.automation.testCases.DashBoardTest@402bba4f]" started-at="2024-02-16T16:47:51 IST" name="dashboardsetup" finished-at="2024-02-16T16:48:26 IST" duration-ms="35073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardsetup -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.testCases.DashBoardTest@402bba4f]" started-at="2024-02-16T16:18:07 IST" name="teardown" finished-at="2024-02-16T16:18:07 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.testCases.DashBoardTest@402bba4f]" started-at="2024-02-16T16:48:26 IST" name="teardown" finished-at="2024-02-16T16:48:26 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
