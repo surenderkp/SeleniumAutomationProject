@@ -17,9 +17,11 @@ public class DashBoardPage {
 	@FindBy(xpath="//*[@id=\"tab-academies\"]/div/div/ul/li[1]/form/div/button") WebElement subscribeNow;
 	@FindBy(xpath="//*[@id=\"learn-press-payment\"]/div[1]/div/div[1]/label") WebElement choosepymtduration;
 	@FindBy(xpath="//*[@id=\"learn-press-payment\"]/div[3]/div/div/span[2]/label") WebElement monthly;
+//	@FindBy(xpath="//*[@id=\"learn-press-payment\"]/ul/li/label") WebElement paytm;
 	@FindBy(xpath="//*[@id=\"learn-press-payment\"]/ul/li/label") WebElement paytm;
 	@FindBy(xpath="//*[@id=\"learn-press-checkout-place-order\"]") WebElement paynow;
-
+	
+	
 	public void dashboard() throws InterruptedException {
 		dash.click();
 		offerdcourse.click();
@@ -28,6 +30,7 @@ public class DashBoardPage {
 		choosepymtduration.click();
 		monthly.click();
 		Thread.sleep(5000);
+		//paytm.click();
 		paytm.click();
 		Thread.sleep(5000);
 		paynow.submit();

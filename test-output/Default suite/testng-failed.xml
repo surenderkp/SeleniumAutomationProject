@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.testCases.DashBoardTest">
+      <class name="com.automation.testCases.LoginTestDrivenData">
         <methods>
           <include name="teardown"/>
-          <include name="dashboardsetup"/>
           <include name="setup"/>
+          <include name="verifylogin" invocation-numbers="2"/>
         </methods>
-      </class> <!-- com.automation.testCases.DashBoardTest -->
+      </class> <!-- com.automation.testCases.LoginTestDrivenData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

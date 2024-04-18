@@ -42,8 +42,6 @@ public class LoginPage extends BaseTest {
 		logoutimage.click();
 		logoutclick.click();
 	}
-
-	
 	
 	
 		

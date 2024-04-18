@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.automation.testCases.LoginTestDrivenData">
+      <class name="com.automation.testCases.DashBoardTest">
         <methods>
           <include name="teardown"/>
+          <include name="dashboardsetup"/>
           <include name="setup"/>
-          <include name="verifylogin" invocation-numbers="2"/>
         </methods>
-      </class> <!-- com.automation.testCases.LoginTestDrivenData -->
+      </class> <!-- com.automation.testCases.DashBoardTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
